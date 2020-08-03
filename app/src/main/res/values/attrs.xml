@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppTheme">
+        <attr name="calendarViewStyle" format="reference" />
+        <attr name="itemViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CalendarViewStyle">
+        <attr name="dayHeight" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ItemViewStyle">
+        <attr name="dayTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
